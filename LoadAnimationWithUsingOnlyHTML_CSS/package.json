@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "darkcodeclone",
+  "description": "updated 20190531 by zakiBurning   To learn HTML and CSS, hands-on, copy HTML and CSS code from Dark-Code    that is published on youtube.",
+  "scripts": {
+    "start": "node server.js",
+    "nodeman": "nodeman ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakiBurning/darkCodeClone.git"
+  },
+  "author": "zakiBurning",
+  "license": "ISC",
+  "homepage": "https://github.com/zakiBurning/darkCodeClone#readme",
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "file-system": "^2.2.2"
+  }
+}
