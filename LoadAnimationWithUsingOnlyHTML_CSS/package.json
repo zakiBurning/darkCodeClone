@@ -4,7 +4,7 @@
   "description": "updated 20190531 by zakiBurning   To learn HTML and CSS, hands-on, copy HTML and CSS code from Dark-Code    that is published on youtube.",
   "scripts": {
     "start": "node server.js",
-    "nodeman": "nodeman ./server.js"
+    "dev": "nodemon server.js cross-env"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "license": "ISC",
   "homepage": "https://github.com/zakiBurning/darkCodeClone#readme",
   "devDependencies": {
-    "nodeman": "^1.1.2"
+    "nodemon": "^1.19.1"
   },
   "dependencies": {
     "express": "^4.17.1",
